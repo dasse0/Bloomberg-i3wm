@@ -1,0 +1,79 @@
+/*****----- Configuration -----*****/
+configuration {
+    show-icons: true;
+}
+
+* {
+    black: #000000;
+    red: #eb6e67;
+    green: #95ee8f;
+    yellow: #f8c456;
+    blue: #6eaafb;
+    magenta: #d886f3;  /* Corrected typo here */
+    cyan: #6cdcf7;
+    emphasis: #50536b;
+    text: #ff8c00;
+    text-alt: #b2b2b2;
+    fg: #abb2bf;
+    bg: #282c34;
+
+    spacing: 10;
+    background-color: #1b145d;
+
+    font: "Liberation Mono 12";
+    text-color: @text;
+}
+
+window {
+    width: 40%;
+    height: 60%;
+    padding: 10px;
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled: true;
+    spacing: 10px;
+    margin: 0px;
+    padding: 20px;
+    background-color: transparent;
+    children: [ "inputbar", "message", "listview" ];
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled: true;
+    columns: 3;
+    lines: 6;
+    cycle: true;
+    scrollbar: true;
+    layout: vertical;
+
+    spacing: 1px;
+    background-color: transparent;
+    cursor: "default";
+}
+
+element {
+    enabled: true;
+    padding: 1px;
+    border: 0px solid;
+    border-radius: 0px;
+    background-color: #1b145d;  /* Use a specific color here */
+    text-color: #abb2bf;  /* Use a specific color here */
+    cursor: pointer;
+
+}
+
+element normal.normal,
+element alternate.normal {
+    background-color: #1b145d;  /* Use the same color as above */
+    text-color: #abb2bf;  /* Use the same color as above */
+}
+
+element selected.normal,
+element selected.urgent,
+element selected.active {
+    background-color: #0ABDC6FF;  /* Use the same color as defined in your theme */
+    text-color: #282c34;  /* Use a specific text color here */
+}

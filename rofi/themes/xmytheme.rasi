@@ -1,0 +1,12 @@
+* {
+    background-color: #1a1a1a;
+    foreground-color: #dcdccc;
+    selection-background: #4e4e4e;
+    selection-foreground: #dcdccc;
+    border: 2px solid #1a1a1a;
+}
+
+window {
+    width: 100%;
+    padding: 10px;
+}
