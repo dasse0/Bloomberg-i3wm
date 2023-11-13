@@ -1,0 +1,148 @@
+
+{
+ 
+    "cmake.configureSettings": {
+      "CMAKE_TOOLCHAIN_FILE": "E:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    },
+  
+   "workbench.colorTheme": "One Dark Pro",
+   "oneDarkPro.color": {
+    "chalky": "#00FF00",
+    "coral": "#00FF00",
+    "dark": "#00FF00",
+    "fountainBlue": "#00FF00",
+    "green": "#C0C0C0",
+    "lightDark": "#FF8C00",
+    "malibu": "#00BFFF",
+    "purple": "#FF0000",
+    "whiskey": "#FF00FF",
+    "deepRed": "#00FF00"
+  },
+  
+   "cmake.configureOnOpen": true,
+   "oneDarkPro.bold": true,
+   "workbench.settings.applyToAllProfiles": [],
+   "editor.tokenColorCustomizations": {
+    "textMateRules": [
+     {
+      "scope": ["source.shell", "text.html.markdown"],
+      "settings": {
+       "foreground": "#00FF00" // Green color
+      }
+     }
+    ]
+   },
+   // change editor background color
+   "workbench.colorCustomizations": {
+    
+    
+    //"editorIndentGuide.background": "#999",
+  
+    "editor.background": "#000000",
+    "menu.background": "#111",
+    "sideBar.background": "#000",
+    "terminal.background": "#000000",
+    "terminal.ansiOrange": "#FFA500",
+    "sideBarSectionHeader.background": "#333",
+    "activityBar.background": "#151515",
+    "activityBar.foreground": "#999", // Optional: Change text/icon color
+    "activityBar.inactiveForeground": "#666", // Optional: Change inactive text/icon color
+    "editorLineNumber.foreground": "#FFA500",
+    "menubar.background": "#333333",
+    "menubar.foreground": "#FFFFFF", // Optional: Change text color
+    "titleBar.activeBackground": "#151515",
+    "statusBar.background": "#151515",
+    "debugConsole.background": "#000000",
+    "debugConsole.ansiOrange": "#FFA500",
+    "outputPanel.background": "#000000",
+    "outputPanel.ansiOrange": "#FFA500"
+   },
+  
+   "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+     "source": "PowerShell",
+     "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+     "path": [
+      "${env:windir}\\Sysnative\\cmd.exe",
+      "${env:windir}\\System32\\cmd.exe"
+     ],
+     "args": [],
+     "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+     "source": "Git Bash"
+    },
+    "bash (MSYS2)": {
+     "path": "C:\\msys64\\usr\\bin\\bash.exe",
+     "args": ["--login", "-i"]
+    },
+    "Windows PowerShell": {
+     "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+   },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  
+  "editor.fontFamily": "JetBrains Mono ",
+   // Turn on font ligatures
+   "editor.fontLigatures": true,
+   // Set letter spacing
+  
+   // Enable smooth scrolling in the editor
+   "editor.smoothScrolling": true,
+   "[rust]": {
+    "editor.defaultFormatter": "jinxdash.prettier-rust"
+   },
+   "workbench.iconTheme": "material-icon-theme",
+   "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.tabWidth": 1,
+   "terminal.integrated.showLinkHover": false,
+  
+   "editor.tokenColorCustomizations": {
+    "textMateRules": [
+     {
+      "scope": "markup.other.log.error",
+      "settings": { "foreground": "#FF0000" }
+     },
+     {
+      "scope": "markup.other.log.warn",
+      "settings": { "foreground": "#c500f7cc" }
+     },
+     {
+      "scope": "markup.other.log.info",
+      "settings": { "foreground": "#2cd3c5" }
+     },
+     {
+      "scope": "markup.other.log.debug",
+      "settings": { "foreground": "#00b7ff" }
+     },
+     {
+      "scope": "markup.other.log.highlight",
+      "settings": { "foreground": "#19ff04" }
+     }
+    ]
+   },
+   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.explorerKind": "external",
+  "editor.fontWeight": "normal",
+  "editor.fontSize": 12,
+  "workbench.sideBar.location": "right",
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "[cmake]": {
+    "editor.defaultFormatter": "josetr.cmake-language-support-vscode"
+  },
+  "editor.wordWrap": "on",
+  "editor.lineHeight": 0.8,
+  "editor.tabSize": 1,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  }
+  
